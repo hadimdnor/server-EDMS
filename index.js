@@ -7,7 +7,7 @@ const pg = require('pg');
 const port = process.env.PORT || 3001;
 
 
-const origin = process.env.PRODUCTION ? "http://edms.surge.sh/" : "http://localhost:3000"
+const origin = process.env.PRODUCTION ? "http://edms.surge.sh" : "http://localhost:3000"
 
 app.use(cors({ origin }));
 app.use(express.json());
