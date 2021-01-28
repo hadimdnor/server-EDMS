@@ -9,22 +9,22 @@
 ### The EDMS help to track, update, delete and edit employee record. 
 
 ###Technologies used:
-####•	N ode.js with Express as server 
-######•	Reach js as frond end.
-######•	PostgreSQL to store the data
-######•	XML & CSS
-######•	GitHub
-######•	Heroku. 
-######•	Json
-######•	Jsx
-######•	Library use:
-######o	Express
-######o	Axios
-######o	Nodemon
-######o	Ejs
-######o	Cors
-######o	Body-parser
-######o	Pg
+####	N ode.js with Express as server 
+######	Reach js as frond end.
+######	PostgreSQL to store the data
+######	XML & CSS
+######	GitHub
+######	Heroku. 
+######	Json
+######	Jsx
+#####	Library use:
+######	Express
+######	Axios
+######	Nodemon
+######	Ejs
+######	Cors
+######	Body-parser
+######	Pg
 
 
 ####Who this application is for and why:
