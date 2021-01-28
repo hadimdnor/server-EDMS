@@ -11,20 +11,20 @@
 ### Technologies used:
 - Node.js with Express as server 
 - Reach js as frond end.
-######	PostgreSQL to store the data
-######	XML & CSS
-######	GitHub
-######	Heroku. 
-######	Json
-######	Jsx
-#####	Library use:
-######	Express
-######	Axios
-######	Nodemon
-######	Ejs
-######	Cors
-######	Body-parser
-######	Pg
+-	PostgreSQL to store the data
+-	XML & CSS
+-	GitHub
+-	Heroku. 
+-	Json
+-	Jsx
+#### Library use:
+-	Express
+-	Axios
+-	Nodemon
+-	ejs
+-	Cors
+-	Body-parser
+-	Pg
 
 
 #### Who this application is for and why:
