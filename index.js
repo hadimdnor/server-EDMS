@@ -6,7 +6,10 @@ const run_sql = require('./db')
 const pg = require('pg');
 const port = process.env.PORT || 3001;
 
-app.use(cors());
+
+const origin = process.env.PRODUCTION ? "http://edms.surge.sh/" : "http://localhost:3000"
+
+app.use(cors({ origin }));
 app.use(express.json());
 
 
