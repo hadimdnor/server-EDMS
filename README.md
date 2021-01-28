@@ -5,11 +5,11 @@
 
 ## -----------this is the back end of the app----------
 
-##### The EDMS is an application that try to help an employer to managed their employees database. Sometime to managed the employees database will be a huge problem when there is no server to help keeping the data. Hence the EDMS was built to cater this issue.
-##### The EDMS help to track, update, delete and edit employee record. 
+### The EDMS is an application that try to help an employer to managed their employees database. Sometime to managed the employees database will be a huge problem when there is no server to help keeping the data. Hence the EDMS was built to cater this issue.
+### The EDMS help to track, update, delete and edit employee record. 
 
-#####Technologies used:
-######•	N ode.js with Express as server 
+###Technologies used:
+####•	N ode.js with Express as server 
 ######•	Reach js as frond end.
 ######•	PostgreSQL to store the data
 ######•	XML & CSS
