@@ -4,7 +4,7 @@ const app = express();
 const cors = require("cors");
 const run_sql = require('./db')
 const pg = require('pg');
-
+const port = process.env.PORT || 3001;
 
 app.use(cors());
 app.use(express.json());
@@ -26,10 +26,17 @@ app.use(bodyParser.json());
 
 const { Pool, Client } = require("pg");
 
-const pool = new Pool({
+let pool;
+if (process.env.PRODUCTION) {
+  pool = new Pool({
+    connectionString: process.env.DATABASE_URL,
+  })
+} else {
+  pool = new Pool({
     database: 'employee_management',
-    username: 'hadimdnor'
-})
+    user: 'hadimdnor'
+  })
+}
 
 // app.post('/register', (req,res) => {
 //   const username = req.body.username
@@ -135,6 +142,6 @@ app.delete("/delete/:id", (req, res)=> {
 // app.use(userRoutes)
 // app.use(sessionRoutes)
 
-app.listen(3001, () => {
-  console.log("Yey, your server is running on port 3001");
+app.listen(port, () => {
+  console.log(`Yey, your server is running on port ${port}`);
 });
