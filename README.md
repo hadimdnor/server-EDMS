@@ -33,5 +33,5 @@
 #### Challenges
 ##### The most challenging part in development of the  EDMS app to connect the front end (react js) with back end server (nodes js), to communicate with API and database.
 
-#### The link to the app: http://edms.surge.sh/ 
+#### The link to the app: http://edms.surge.sh
 
